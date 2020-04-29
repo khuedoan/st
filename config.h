@@ -118,9 +118,12 @@ static unsigned int defaultrcs = 257;
 
 /*
  * Default shape of cursor
- * 2: Block ("█")
- * 4: Underline ("_")
- * 6: Bar ("|")
+ * 1: Blinking Block ("█")
+ * 2: Steady Block ("█")
+ * 3: Blinking Underline ("_")
+ * 4: Steady Underline ("_")
+ * 5: Blinking Bar ("|")
+ * 6: Steady Bar ("|")
  * 7: Snowman ("☃")
  */
 static unsigned int cursorshape = 2;
