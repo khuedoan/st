@@ -2,6 +2,8 @@
 
 st is a simple terminal emulator for X which sucks less.
 
+![Screenshot](https://i.imgur.com/HtHdlPu.png)
+
 # Requirements
 
 In order to build st you need the Xlib header files.
