@@ -31,12 +31,6 @@ tic -sx st.info
 
 See the man page for additional details.
 
-# Blur effect
-
-This fork leverages picom's new kawase blur method instead of taking a screenshot, blur it using ImageMagick without hardware acceleration and then set it as the lock screen wallpaper.
-The end result is much higher performance and much lower latency.
-Currently, you will need to enable the experimental backend in picom using `picom --experimental-backends`, you can check out my picom config [here](https://github.com/khuedoan/dotfiles/blob/master/.config/picom/picom.conf#L29).
-
 # Credits
 
 Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
